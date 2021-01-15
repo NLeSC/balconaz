@@ -27,14 +27,13 @@ header_origin, l_origin = readCSV("../data/ground_truth-test.csv") # first file 
 names = [x[1] for x in l_origin]
 urls = [x[2] for x in l_origin]
 
+#creating values
 players = create_alias(names, "Player")
 links = create_alias(urls, "URL")
 
 # create dictionary for anonymization
 d_names = dict(zip(names,players))
 d_links = dict(zip(urls,links))
-
-print(d_links)
 
 # read the guesses file
 header_guess, l_guess = readCSV("../data/guesses.csv")
@@ -44,8 +43,6 @@ url_g = [d_links.get(x[1]) for x in l_guess] #change 2nd column
 names_g = [d_names.get(x[2]) for x in l_guess] #change 3rd column
 guess_g = [d_names.get(x[3]) for x in l_guess] #change 4th column
 timestamp_g = [x[0] for x in l_guess]
-
-
 
 # writeout anonymized values from this vocabulary
 with open("../data/randomized_data-test.csv", "w") as f:

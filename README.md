@@ -4,9 +4,16 @@ The repository contains Python scripts calculating various statistics from the v
 
 # How to use
 
-- _description of what the software does_
-- _notes on how to install_
+First run all the scripts to prepare the data:
+```bash
+python ../scripts/anonymize.py
+python ../scripts/randomize_tuple.py
+```
+Then proceed to run the Jupyther notebook ```notebooks/analysis.ipynb```.
 
+TODO:
+- _description of what the scrips do_
+- dependencies
 # Contribute
 
 Contributions are always welcome!

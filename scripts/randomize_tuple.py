@@ -1,19 +1,21 @@
 # input: two column csv file
 # output: randomized two column csv file
 
-
 import csv
 import random
 
-with open("data/links.csv") as f:
+with open("../data/ground_truth-test.csv") as f:
     row = csv.reader(f)
     header, l = next(row), list(row)
 
-entryA = [[x[0]] for x in l]
+# randomize first column
+entryA = [x[1] for x in l]
 random.shuffle(entryA)
 
-entryB = [x[1] for x in l]
+# randomize another column
+entryB = [x[2] for x in l]
 random.shuffle(entryB)
 
-with open("data/random.csv", "w") as f:
-    csv.writer(f).writerows([header] + zip(entryA, entryB))
+# writeout keeping all but timestamp column
+with open("../data/randomized_data-test.csv", "w") as f:
+    csv.writer(f).writerows([header[1:]] + zip(entryA, entryB))

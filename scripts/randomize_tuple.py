@@ -1,5 +1,6 @@
 # input: two column csv file
 # output: randomized two column csv file
+# bad: all hardcoded filenames
 
 import csv
 import random
@@ -19,3 +20,5 @@ random.shuffle(entryB)
 # writeout keeping all but timestamp column
 with open("../data/randomized_data-test.csv", "w") as f:
     csv.writer(f).writerows([header[1:]] + zip(entryA, entryB))
+
+print("Randomization done.")

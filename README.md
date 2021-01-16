@@ -11,9 +11,13 @@ python ../scripts/randomize_tuple.py
 ```
 Then proceed to run the Jupyther notebook ```notebooks/analysis.ipynb```.
 
+Dependency
+https://github.com/cdaller/csv_anonymizer
+
 TODO:
 - _description of what the scrips do_
 - dependencies
+
 # Contribute
 
 Contributions are always welcome!

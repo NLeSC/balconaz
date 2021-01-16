@@ -44,7 +44,7 @@ names_g = [d_names.get(x[2]) for x in l_guess] #change 3rd column
 guess_g = [d_names.get(x[3]) for x in l_guess] #change 4th column
 timestamp_g = [x[0] for x in l_guess]
 
-# writeout anonymized values from this vocabulary
+# writeout anonymized values from this dictionary
 with open("../data/randomized_data-test.csv", "w") as f:
     csv.writer(f).writerows([header_guess])
     csv.writer(f).writerows(zip(timestamp_g,url_g, names_g, guess_g))

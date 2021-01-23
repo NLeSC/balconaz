@@ -1,6 +1,6 @@
 # Welcome
 
-The repository contains Python scripts calculating various statistics from the video quiz. The data is fully anonymized.
+The repository contains Jupyther notebook calculating various statistics from the video quiz. The data is fully anonymized by the Python scripts included in this repository.
 
 # How to use
 

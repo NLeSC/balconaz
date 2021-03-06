@@ -9,7 +9,7 @@ First run all the scripts to prepare the data:
 python ../scripts/anonymize.py
 python ../scripts/randomize_tuple.py
 ```
-Then proceed to run the Jupyther notebook ```notebooks/analysis.ipynb```, 
+Then proceed to run the Jupyther notebook ```notebooks/<game>/analysis.ipynb```, 
 for example by executing:
 ```bash
 jupyter notebook <input.ipynb>

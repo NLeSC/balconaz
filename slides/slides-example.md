@@ -20,13 +20,13 @@ TODO: python script to generate this
 
 ### Correct Answer
 insert player name + avatar
-![EG](data/avatars/eminio.jpg)
+![EG](data/avatars/eg.jpg)
 
-![AA](data/avatars/leeo.jpeg)
+![AA](data/avatars/aa.jpeg)
 
-![RB](data/avatars/static-powfactor.png)
+![RB](data/avatars/rb.png)
 
-![AH](data/avatars/ali.jpeg)
+![AH](data/avatars/ah.jpeg)
 ### Guesses 
 
 - insert (Plot with highlighted correct votes)

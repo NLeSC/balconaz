@@ -1,0 +1,17 @@
+Timestamp,Чьи факты?,Кто угадывает?,Какой из фактов правда? Отмечать только один ответ.
+2021/02/14 10:08:25 PM GMT+1,Player1,Player1,Fact 1
+2021/02/15 7:44:09 AM GMT+1,Player1,Player2,Fact 2
+2021/02/15 7:44:39 AM GMT+1,Player1,Player3,Fact 1
+2021/02/15 7:45:00 AM GMT+1,Player1,Player4,Fact 3
+2021/02/15 7:47:06 AM GMT+1,Player2,Player1,Fact 1
+2021/02/15 9:58:49 AM GMT+1,Player2,Player2,Fact 2
+2021/02/15 10:14:10 AM GMT+1,Player2,Player3,Fact 3
+2021/02/15 11:22:19 AM GMT+1,Player2,Player4,Fact 3
+2021/02/15 11:51:00 AM GMT+1,Player3,Player1,Fact 1
+2021/02/15 1:20:31 PM GMT+1,Player3,Player2,Fact 1
+2021/02/15 2:41:59 PM GMT+1,Player3,Player3,Fact 1
+2021/02/16 9:26:48 AM GMT+1,Player3,Player4,Fact 2
+2021/02/16 10:54:41 AM GMT+1,Player4,Player1,Fact 3
+2021/02/16 10:54:57 AM GMT+1,Player4,Player2,Fact 3
+2021/02/16 10:55:30 AM GMT+1,Player4,Player3,Fact 1
+2021/02/16 10:55:42 AM GMT+1,Player4,Player4,Fact 1
